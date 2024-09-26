@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const connection = async()=>{
     try {
         //String de conexion a mogodb
-        await mongoose.connect("mongodb+srv://wilmerarenas24:PAy7JMP3rGj4uujj@cluster0.fol9jtu.mongodb.net/");
+        await mongoose.connect("...mongodb.net/");
 
         console.log("Conexion correcta a BD!!");
         
